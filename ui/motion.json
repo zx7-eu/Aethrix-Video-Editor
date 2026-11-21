@@ -1,0 +1,5 @@
+{
+  "push": {"label":"Push in","start":1.0,"end":1.12,"frames":20,"anchorX":0.5,"anchorY":0.5},
+  "settle": {"label":"Impact settle","start":1.16,"end":1.0,"frames":12,"anchorX":0.5,"anchorY":0.5},
+  "detail": {"label":"Right-side detail","start":1.0,"end":1.24,"frames":18,"anchorX":0.88,"anchorY":0.48}
+}

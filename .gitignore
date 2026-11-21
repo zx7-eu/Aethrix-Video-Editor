@@ -1,0 +1,39 @@
+/target/
+__pycache__/
+*.pyc
+/Framecut.exe
+/Launch Framecut.cmd
+/assets/Framecut.ico
+/*.framecut
+/media/*
+!/media/073ce5f56ca54af8a388a48ccf30c757.m4a
+!/media/202c3eb12a0f43048c1019f1638407c2-thumb.jpg
+!/media/202c3eb12a0f43048c1019f1638407c2.mp4
+!/media/32dfff0f937b4877ba42661f46bce146-thumb.jpg
+!/media/32dfff0f937b4877ba42661f46bce146.mp4
+!/media/34f717aa63be4d39b0ba57fe419bf15a-thumb.jpg
+!/media/34f717aa63be4d39b0ba57fe419bf15a.mp4
+!/media/3645ce237c2c447089bbeeb9ef4cc062-thumb.jpg
+!/media/3645ce237c2c447089bbeeb9ef4cc062.mp4
+!/media/561134d154cc496798d3bffa4ef7d681-thumb.jpg
+!/media/561134d154cc496798d3bffa4ef7d681.mp4
+!/media/9f2eca80e3584393bb3dc51fcfcf009e-thumb.jpg
+!/media/9f2eca80e3584393bb3dc51fcfcf009e.mp4
+!/media/ac4bd2c3ca0a4ce08758265138b50ab9-thumb.jpg
+!/media/ac4bd2c3ca0a4ce08758265138b50ab9.mp4
+!/media/ambience.m4a
+!/media/ce081c1b3d7d49818230ea243151667e-thumb.jpg
+!/media/ce081c1b3d7d49818230ea243151667e.mp4
+!/media/f9a780162f1445ee9dc6be516f1461a3-thumb.jpg
+!/media/f9a780162f1445ee9dc6be516f1461a3.mp4
+!/media/lake.jpg
+!/media/lake.mp4
+!/media/night.jpg
+!/media/night.mp4
+!/media/summit.jpg
+!/media/summit.mp4
+!/media/woodland.jpg
+!/media/woodland.mp4
+/exports/*
+!/exports/Aethrix - Catch Me.mp4
+!/exports/Aethrix - Catch Me credits.txt

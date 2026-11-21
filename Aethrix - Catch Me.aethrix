@@ -1,0 +1,348 @@
+{
+  "assets": [
+    {
+      "duration": 1.333008,
+      "id": "9f2eca80e3584393bb3dc51fcfcf009e",
+      "kind": "video",
+      "name": "Signature.mp4",
+      "thumb": "/media/9f2eca80e3584393bb3dc51fcfcf009e-thumb.jpg",
+      "url": "/media/9f2eca80e3584393bb3dc51fcfcf009e.mp4"
+    },
+    {
+      "duration": 6,
+      "id": "32dfff0f937b4877ba42661f46bce146",
+      "kind": "video",
+      "name": "Sentinel.mp4",
+      "thumb": "/media/32dfff0f937b4877ba42661f46bce146-thumb.jpg",
+      "url": "/media/32dfff0f937b4877ba42661f46bce146.mp4"
+    },
+    {
+      "duration": 6,
+      "id": "ac4bd2c3ca0a4ce08758265138b50ab9",
+      "kind": "video",
+      "name": "Overload.mp4",
+      "thumb": "/media/ac4bd2c3ca0a4ce08758265138b50ab9-thumb.jpg",
+      "url": "/media/ac4bd2c3ca0a4ce08758265138b50ab9.mp4"
+    },
+    {
+      "duration": 2.5,
+      "id": "3645ce237c2c447089bbeeb9ef4cc062",
+      "kind": "video",
+      "name": "cut.mp4",
+      "thumb": "/media/3645ce237c2c447089bbeeb9ef4cc062-thumb.jpg",
+      "url": "/media/3645ce237c2c447089bbeeb9ef4cc062.mp4"
+    },
+    {
+      "duration": 6,
+      "id": "ce081c1b3d7d49818230ea243151667e",
+      "kind": "video",
+      "name": "Impact.mp4",
+      "thumb": "/media/ce081c1b3d7d49818230ea243151667e-thumb.jpg",
+      "url": "/media/ce081c1b3d7d49818230ea243151667e.mp4"
+    },
+    {
+      "duration": 2.5,
+      "id": "561134d154cc496798d3bffa4ef7d681",
+      "kind": "video",
+      "name": "grade.mp4",
+      "thumb": "/media/561134d154cc496798d3bffa4ef7d681-thumb.jpg",
+      "url": "/media/561134d154cc496798d3bffa4ef7d681.mp4"
+    },
+    {
+      "duration": 2.5,
+      "id": "202c3eb12a0f43048c1019f1638407c2",
+      "kind": "video",
+      "name": "motion.mp4",
+      "thumb": "/media/202c3eb12a0f43048c1019f1638407c2-thumb.jpg",
+      "url": "/media/202c3eb12a0f43048c1019f1638407c2.mp4"
+    },
+    {
+      "duration": 2.5,
+      "id": "34f717aa63be4d39b0ba57fe419bf15a",
+      "kind": "video",
+      "name": "desk.mp4",
+      "thumb": "/media/34f717aa63be4d39b0ba57fe419bf15a-thumb.jpg",
+      "url": "/media/34f717aa63be4d39b0ba57fe419bf15a.mp4"
+    },
+    {
+      "duration": 2.583008,
+      "id": "f9a780162f1445ee9dc6be516f1461a3",
+      "kind": "video",
+      "name": "Credits.mp4",
+      "thumb": "/media/f9a780162f1445ee9dc6be516f1461a3-thumb.jpg",
+      "url": "/media/f9a780162f1445ee9dc6be516f1461a3.mp4"
+    },
+    {
+      "duration": 19.333333,
+      "id": "073ce5f56ca54af8a388a48ccf30c757",
+      "kind": "audio",
+      "name": "Catch Me - showcase excerpt.wav",
+      "thumb": "",
+      "url": "/media/073ce5f56ca54af8a388a48ccf30c757.m4a"
+    }
+  ],
+  "clips": [
+    {
+      "asset": "9f2eca80e3584393bb3dc51fcfcf009e",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 1.2083333333333333,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "a2bd1340-568c-4add-b7be-b58b4fdc1648",
+      "motion": "",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "32dfff0f937b4877ba42661f46bce146",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 0.75,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "04f0b760-6f8b-4ab6-9c94-81d2536e1469",
+      "motion": "settle",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0.16666666666666666,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "ac4bd2c3ca0a4ce08758265138b50ab9",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 0.9166666666666669,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "be1d78b4-c050-4e0a-821e-ce1a87f2a307",
+      "motion": "push",
+      "saturation": 1.22,
+      "speed": 1,
+      "start": 0.2916666666666667,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "3645ce237c2c447089bbeeb9ef4cc062",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 2.4166666666666665,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "269b292f-8d46-4b6c-afb1-f8bdbe2c1487",
+      "motion": "",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "32dfff0f937b4877ba42661f46bce146",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 2.375,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "f0bd9b69-6079-4b7f-9770-02954753a7b5",
+      "motion": "push",
+      "saturation": 1,
+      "speed": 1,
+      "start": 1.1666666666666667,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "ce081c1b3d7d49818230ea243151667e",
+      "brightness": 1,
+      "contrast": 1.09,
+      "end": 1.9166666666666663,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "411d3860-9917-46a9-bdb3-24954359d008",
+      "motion": "settle",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0.7083333333333334,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "561134d154cc496798d3bffa4ef7d681",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 2.4166666666666665,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "b9d67bdf-026b-4dbb-b22e-714ffe81f3bb",
+      "motion": "",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "ac4bd2c3ca0a4ce08758265138b50ab9",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 3.416666666666667,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "d3d58370-247b-4bab-a635-5015fe14974b",
+      "motion": "detail",
+      "saturation": 1.22,
+      "speed": 1,
+      "start": 2.2083333333333335,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "202c3eb12a0f43048c1019f1638407c2",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 2.4166666666666665,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "897f2f93-2046-4999-aef0-c8790f4dfbde",
+      "motion": "",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "32dfff0f937b4877ba42661f46bce146",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 1.875,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "b66d91ac-6fcd-4289-884e-e58ff249ebf8",
+      "motion": "push",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0.6666666666666666,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "34f717aa63be4d39b0ba57fe419bf15a",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 2.4166666666666665,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "id": "17493621-4c6c-4406-93d6-907d51195d64",
+      "motion": "",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    },
+    {
+      "asset": "f9a780162f1445ee9dc6be516f1461a3",
+      "brightness": 1,
+      "contrast": 1,
+      "end": 2.4166666666666665,
+      "fadeIn": 0,
+      "fadeOut": 0.12,
+      "id": "9cd05c2d-22c4-4280-af26-61b80ba45225",
+      "motion": "",
+      "saturation": 1,
+      "speed": 1,
+      "start": 0,
+      "subtitle": "",
+      "title": "",
+      "titleSize": 1,
+      "volume": 0,
+      "zoom": 1
+    }
+  ],
+  "markers": [
+    {
+      "id": "0f8e2242-72a5-451c-a26b-a1bc1db45f10",
+      "name": "Downbeat",
+      "time": 0
+    },
+    {
+      "id": "485fc51f-428b-47da-b0d8-57139b322ab7",
+      "name": "Split",
+      "time": 2.4166666666666665
+    },
+    {
+      "id": "639a2675-6856-4daf-b4b6-2020dab80522",
+      "name": "Impact",
+      "time": 6.041666666666667
+    },
+    {
+      "id": "a86bd613-ae4d-4669-aded-73038dd59f32",
+      "name": "Grade",
+      "time": 7.25
+    },
+    {
+      "id": "7af65cd8-f0cc-4bee-95ce-6b4115d80775",
+      "name": "Camera",
+      "time": 10.875
+    },
+    {
+      "id": "3be769db-5a53-4a34-956a-d980d71a3f18",
+      "name": "Workspace",
+      "time": 14.5
+    },
+    {
+      "id": "b54e9a21-7cd3-4ff8-bb00-231a79ca6a81",
+      "name": "Credits",
+      "time": 16.916666666666668
+    }
+  ],
+  "music": {
+    "asset": "073ce5f56ca54af8a388a48ccf30c757",
+    "offset": 0,
+    "start": 0,
+    "volume": 0.62
+  },
+  "name": "Aethrix - Catch Me",
+  "ratio": "16:9",
+  "version": 1
+}

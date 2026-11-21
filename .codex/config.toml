@@ -1,0 +1,4 @@
+[mcp_servers.aethrix]
+command = 'D:\Video Editor\Aethrix.exe'
+args = ["--mcp"]
+tool_timeout_sec = 600

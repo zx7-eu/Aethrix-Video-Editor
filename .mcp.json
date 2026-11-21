@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aethrix": {
+      "command": "D:\\Video Editor\\Aethrix.exe",
+      "args": ["--mcp"]
+    }
+  }
+}
