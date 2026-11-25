@@ -56,7 +56,7 @@ fn write_line(mut stream: &TcpStream, value: &Value) -> Result<()> {
 pub fn start(
     root: PathBuf,
     port: u16,
-    proxy: EventLoopProxy<EditorCall>,
+    proxy: EventLoopProxy<crate::AppEvent>,
     replies: Replies,
 ) -> Result<()> {
     let listener = TcpListener::bind((Ipv4Addr::LOCALHOST, 0))?;
@@ -104,11 +104,11 @@ pub fn start(
                     let (tx, rx) = mpsc::channel();
                     replies.lock().unwrap().insert(id.clone(), tx);
                     let sent = proxy
-                        .send_event(EditorCall {
+                        .send_event(crate::AppEvent::Agent(EditorCall {
                             id: id.clone(),
                             tool: req.tool.clone(),
                             args,
-                        })
+                        }))
                         .is_ok();
                     let response = if sent {
                         rx.recv_timeout(Duration::from_secs(25)).ok()

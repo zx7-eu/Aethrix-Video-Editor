@@ -307,6 +307,26 @@ async function startExport(project,size){
       const res=await fetch("/export",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({project,size,titles})}),job=await res.json();if(!res.ok)throw Error(job.error||"Could not start the export.");
   return job;
 }
+function saveRenderedVideo(job, url, projectName, button) {
+  let stem=projectName.replace(/[<>:"/\\|?*\x00-\x1f]/g,"_").trim().slice(0,120).replace(/[. ]+$/,"") || "Video";
+  if(/^(con|aux|prn|nul|com[1-9]|lpt[1-9])(\.|$)/i.test(stem))stem="_"+stem;
+  const name=stem+".mp4";
+  if(!window.ipc?.postMessage){download(url,name);return;}
+  const status=$("saveStatus");
+  button.disabled=true;
+  status.textContent="Choose where to save your video.";
+  function completed(event){
+    const result=event.detail;
+    if(result.id!==job)return;
+    window.removeEventListener("video-saved",completed);
+    button.disabled=false;
+    status.textContent=result.error?"Could not save video. "+result.error:
+      result.cancelled?"Save cancelled. You can choose a location again.":"Saved to "+result.path;
+  }
+  window.addEventListener("video-saved",completed);
+  try{window.ipc.postMessage(JSON.stringify({action:"saveVideo",export:job,name}));}
+  catch(e){completed({detail:{id:job,error:e.message}});}
+}
 let exporting=false;
 $("export").onclick=()=>{
   if(exporting){toast("Your export is rendering.");return;}pause();
@@ -317,7 +337,7 @@ $("export").onclick=()=>{
     show(0);
     try{const job=await startExport(project,size);
       while(true){await new Promise(resolve=>setTimeout(resolve,500));const state=await (await fetch("/jobs/"+job.id)).json();if(state.error)throw Error(state.error);
-        if(state.url){modal("Export ready",'<p>'+esc(project.name)+' · '+w+' × '+h+' · MP4</p><button id="download" class="primary">'+icon("download")+'Save video</button>');$("download").onclick=()=>download(state.url,project.name+".mp4");break;}if($("dialog").open)show(state.progress);}
+        if(state.url){modal("Export ready",'<p>'+esc(project.name)+' · '+w+' × '+h+' · MP4</p><button id="download" class="primary">'+icon("download")+'Save video</button><p role="status" id="saveStatus"></p>');$("download").onclick=e=>saveRenderedVideo(job.id,state.url,project.name,e.currentTarget);break;}if($("dialog").open)show(state.progress);}
     }catch(e){modal("Export problem","<p>"+esc(e.message)+"</p>");}finally{exporting=false;}
   };
 };
